@@ -40,6 +40,31 @@ export default function TabOneScreen() {
         </Pressable>
       </View>
 
+      <View style={styles.expeBox}>
+        <View style={styles.expeContainer}>
+          <Image source={require("../../assets/images/client.png")} style={styles.expeIcon}/>
+          <Text style={{fontWeight: 'bold', fontSize: 17,}}>Experience</Text>
+        </View>
+          <Text style={styles.expeDetails}>6 months<br></br>
+              App Developer for Thesis Project<br></br>
+              Currently working as an<br></br>
+              App Developer/Frontend Developer</Text>
+      </View>
+
+      <View style={styles.expeBox}>
+        <View style={styles.expeContainer}>
+          <Image source={require("../../assets/images/education.png")} style={styles.expeIcon}/>
+          <Text style={{fontWeight: 'bold', fontSize: 17,}}>Education</Text>
+        </View>
+          <Text style={styles.expeDetails}>B.S. Information Technology<br></br>
+              Major in Web and Mobile Development</Text>
+      </View>
+
+      <View style={styles.aboutContainer}>
+        <Text style={styles.aboutText}>I am a Software Developer with 1 year of experience in developing moible applications using Angular Framework, Ionic Framework, React Native and TypeScript.  I have a strong background in building scalable and maintainable software solutions and have worked on various projects that range from startups to large enterprises.
+          With a degree in Information Technology from Bulacan State University, I specialize in front-end development and have a keen interest in the latest industry trends and technologies. My expertise includes Angular, React, TypeScript, Ionic framework and the Expo framework.
+          In my free time, I enjoy cycling, exploring new technologies, and playing online games. I'm always excited to connect with fellow tech enthusiasts, so feel free to reach out!</Text>
+      </View>
       {/* <EditScreenInfo path="app/(tabs)/index.tsx" /> */}
     </View>
     </ScrollView>
@@ -113,9 +138,46 @@ const styles = StyleSheet.create({
   github: {
     margin: 5,
   },
-  knowContainer: {
-    flex: 1,
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
+  expeBox: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 30,
+    borderColor: '#A9A9A9',
+    borderWidth: 1.5,
+    elevation: 3,
+    width: 350,
+    marginTop: 20,
+  },
+  expeContainer: {
+    flexDirection: 'row',
+    width: '100%',
+  },
+  expeIcon: {
+    width: 24,
+    height: 24,
+    marginEnd: 5,
+    marginStart: 20,
+  },
+  expeDetails: {
+    textAlign: 'center',
+    fontSize: 15,
+  },
+  aboutContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 30,
+    borderColor: '#A9A9A9',
+    borderWidth: 1.5,
+    elevation: 3,
+    width: 350,
+    marginTop: 20,
+  },
+  aboutText: {
+    textAlign: 'justify',
+    fontSize: 15
   }
 });
