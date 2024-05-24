@@ -100,13 +100,7 @@ export default function TabTwoScreen() {
                 <Text style={styles.text}>Expo Framework</Text>
             </View>
 
-            <View style={styles.directContainer}>
-                <FontAwesome
-                  name= "check-circle"
-                  size={20}
-                  style={{marginRight: 5,}}/>
-                <Text style={styles.text}>C++</Text>
-            </View>
+
 
           </View>
         </View>
@@ -117,7 +111,7 @@ export default function TabTwoScreen() {
             <Text style={{fontWeight: 'bold',}}>• XML</Text> Skilled in using XML for data representation and configuration.<br></br>
             <Text style={{fontWeight: 'bold',}}>• JavaScript:</Text> Advanced knowledge in developing dynamic web applications.<br></br>
             <Text style={{fontWeight: 'bold',}}>• TypeScript:</Text> Expertise in utilizing TypeScript for building robust, type-safe applications.<br></br>
-            <Text style={{fontWeight: 'bold',}}>• Java & C++:</Text> Strong background in object-oriented programming and system-level development.<br></br><br></br>
+            <Text style={{fontWeight: 'bold',}}>• Java:</Text> Strong background in object-oriented programming and system-level development.<br></br><br></br>
             <Text style={{fontWeight: 'bold',}}>Frameworks:</Text> <br></br>
             <Text style={{fontWeight: 'bold',}}>• Angular:</Text> Experienced in developing scalable single-page applications.<br></br>
             <Text style={{fontWeight: 'bold',}}>• Ionic Framework:</Text> Proficient in building cross-platform mobile applications.<br></br>
